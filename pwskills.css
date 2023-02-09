@@ -1,11 +1,4 @@
 body{
-    background-color: green;
-    
-}
-.heading{
-    color: red;
-    font-size: 43px;
-    text-align: center;
-    text-decoration: underline;
-    border: 1px dotted black;
+    background-color:grey;
+    color: black;
 }
