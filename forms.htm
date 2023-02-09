@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form doc</title>
+</head>
+<!-- label is used to make text responsive -->
+<!-- id is unique for input box -->
+<!-- name is used for sever  -->
+<!-- value is used for url response storage  -->
+<!-- in radio same name is used beacuse only one value can be selected  -->
+<!-- fieldset is used to make box  -->
+<!-- legend is used to name the field set  -->
+<body>
+    <form method="get">
+       <fieldset>
+        <legend>User Details!</legend>
+        <label for="name">Enter your Name:</label>
+      <input type="text" id="name" name="usernmae" value="puru"  readonly disabled>
+      <br>
+      <label for="address">Please enter your address:</label>
+       <textarea rows="10" cols="20" id="address" name="useradrress"></textarea>
+       <br>
+       <label for="DOB">Date of Birth</label>
+       <input type="Date" id="DOB" name="userDOB">
+       <br>
+       <label for="email">Enter your Email Id:</label>
+       <input type="emnail" id="email" name="mail" placeholder="a@example.com" autofocus><br>
+       <label for="password">Enter your Password:</label>
+       <input type="password" id="password" name="userpassword">
+       <br>
+       Seleect Gender: <br>
+       <label for="male">Male</label>
+       <input type="radio" id="male" name="usergender" value="male"> <br>
+       <label for="gender">Female</label>
+       <input type="radio" id="female" name="usergender" value="female" ><br>
+       Selct Favourite Movie: <br>
+       <label for="option">ABC</label>
+       <input type="checkbox" id="option" name="check"><br>
+       <label for="option1">def</label>
+       <input type="checkbox" id="option1" name="check1"><br>
+       <label for="option2">ghi</label>
+       <input type="checkbox" id="option2" name="check2"><br>
+       please enter a number 
+       <input type="number" min="0" max="2">
+       <input type="submit" >
+       </fieldset>
+    </form>
+</body>
+</html>
