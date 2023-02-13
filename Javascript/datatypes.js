@@ -27,9 +27,14 @@ let name3= "Rohit"
 
 // use array instead of declaring different variable
 
-let name=["hitesh","purushottam","Rohit",2,4,true,]
+// let name=["hitesh","purushottam","Rohit",2,4,true,]
 
 // Object {}  difficult to master 
 
-// object and browser event (most impoertant for javascript)
+// object and browser event (most important for javascript)
+
+let myname = "hitesh" // can be changed 
+const mynme= "purushottam" // cannot be changed 
+
+
 
