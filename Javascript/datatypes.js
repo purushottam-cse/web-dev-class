@@ -18,22 +18,23 @@ let a;
 
 
 
--// Non primitive data types
+// Non primitive data types
 // Array
 
-let name1= "hitesh"
+let name1="hello"
 let name2= "purushottam"
 let name3= "Rohit"
 
 // use array instead of declaring different variable
 
-// let name=["hitesh","purushottam","Rohit",2,4,true,]
+let name=["hitesh","purushottam","Rohit",2,4,true,]
+console.log(name);
 
 // Object {}  difficult to master 
 
 // object and browser event (most important for javascript)
 
-let myname = "hitesh" // can be changed 
+let myname = "hitesh1" // can be changed 
 const mynme= "purushottam" // cannot be changed 
 
 
